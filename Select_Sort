@@ -8,6 +8,9 @@ public class SelectSort{
             smallestIndex = seekSmallestIndex(index,arr);
             interchange(index,smallestIndex,arr);
         }
+        for(int m=0;m<arr.length;m++){
+            System.out.println(arr[m]);
+        }
     }
     
     private static int seekSmallestIndex(int startIndex,int arr[]){
@@ -28,4 +31,9 @@ public class SelectSort{
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    
+    public static void main(String[] args){
+        int[] arr = {14,35,3,57,45};
+        SelectSort ss = new SelectSort();
+        ss.sort(arr);
 }
