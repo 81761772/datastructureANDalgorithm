@@ -1,6 +1,6 @@
 package study;
 
-public class Recursion_Sum {
+public class RecursionSum {
 	
 	public int sum(int n){
 		if(n==1){
@@ -11,7 +11,7 @@ public class Recursion_Sum {
 	}
 	
 	public static void main(String[] args){
-		Recursion_Sum rs = new Recursion_Sum();
+		RecursionSum rs = new RecursionSum();
 		System.out.println(rs.sum(3));
 	}
 }
