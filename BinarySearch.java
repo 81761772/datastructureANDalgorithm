@@ -1,8 +1,8 @@
 package study;
 
-public class Binary_Search{
+public class BinarySearch{
 
-    public int Binary_Search(int[] arr,int target){    	
+    public int BinarySearch(int[] arr,int target){    	
         int first = 0;
         int last = arr.length-1;
         while(first<last){
@@ -20,7 +20,7 @@ public class Binary_Search{
 
     public static void main(String[] args){
 		int[] arr = {2,4,6,8,9,13,15,18,56,89,92,96,99,105,109};//length = 10;
-		Binary_Search bs = new Binary_Search();
-		System.out.println(bs.Binary_Search(arr,105));
+		BinarySearch bs = new BinarySearch();
+		System.out.println(bs.BinarySearch(arr,105));
     }
 }
