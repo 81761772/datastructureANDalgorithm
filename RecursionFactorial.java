@@ -1,6 +1,6 @@
 package study;
 
-public class Recursion_Factorial {
+public class RecursionFactorial {
 	
 	public static int factorial(int n){
 		if(n==0){//数学中规定0的阶乘为1
