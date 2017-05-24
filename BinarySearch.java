@@ -10,7 +10,7 @@ public class Binary_Search{
             if(arr[mid]==target){
                 return mid;
             }else if(arr[mid]>target){
-                last = mid-1;//这个-1和下面的+1是最骚的
+                last = mid-1;//脮芒赂枚-1潞脥脧脗脙忙碌脛+1脢脟脳卯脡搂碌脛
             }else{
                 first = mid+1;
             }
