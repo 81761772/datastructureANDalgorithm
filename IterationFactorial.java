@@ -1,6 +1,6 @@
 package study;
 
-public class Iteration_Factorial {
+public class IterationFactorial {
 	
 	public int factorial(int n){
 		int value = 1;
@@ -12,7 +12,7 @@ public class Iteration_Factorial {
 	}
 	
 	public static void main(String[] args){
-		Iteration_Factorial IF = new Iteration_Factorial();
+		IterationFactorial IF = new IterationFactorial();
 		System.out.println(IF.factorial(3));
 	}
 }
