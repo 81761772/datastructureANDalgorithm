@@ -1,10 +1,10 @@
 package com.study;
 
 public class Fibonacci {
-	//Í¨¹ıµü´ú»ñÈ¡ì³²¨ÄÇÆõÊıÁĞµÄµÚn¸öÊı¡£
+	//é€šè¿‡è¿­ä»£è·å–æ–æ³¢é‚£å¥‘æ•°åˆ—çš„ç¬¬nä¸ªæ•°ã€‚
 	public int IterateFibonacci(int n){
 		if(n<=0){
-			System.out.println("n±ØĞë´óÓÚ0");
+			System.out.println("nå¿…é¡»å¤§äº0");
 		}
 		if((n<=2)&&(n>0)){
 			return 1;
@@ -20,10 +20,10 @@ public class Fibonacci {
 			return sum;
 		}
 	}
-	//Í¨¹ıµİ¹é»ñÈ¡ì³²¨ÄÇÆõÊıÁĞµÄµÚn¸öÊı¡£
+	//é€šè¿‡é€’å½’è·å–æ–æ³¢é‚£å¥‘æ•°åˆ—çš„ç¬¬nä¸ªæ•°ã€‚
 	public int RecursiveFibonacci(int n){
 		if(n<=0){
-			System.out.println("n±ØĞë´óÓÚ0");
+			System.out.println("nå¿…é¡»å¤§äº0");
 		}
 		if((n<=2)&&(n>0)){
 			return 1;
@@ -31,7 +31,7 @@ public class Fibonacci {
 			return RecursiveFibonacci(n-1)+RecursiveFibonacci(n-2);
 		}
 	}
-	//Í¨¹ıµü´ú»ñÈ¡Ö¸¶¨Î»ÊıµÄì³²¨ÄÇÆõÊıÁĞ¡£
+	//é€šè¿‡è¿­ä»£è·å–æŒ‡å®šé•¿åº¦çš„æ–æ³¢é‚£å¥‘æ•°åˆ—ã€‚
 	public void ShowFibonacci(int length){
 		if(length<=0){
 			System.out.println("error");
