@@ -10,7 +10,7 @@ public class BinarySearch{
             if(arr[mid]==target){
                 return mid;
             }else if(arr[mid]>target){
-                last = mid-1;//Õâ¸ö-1ºÍÏÂÃæµÄ+1ÊÇ×îÉ§µÄ
+                last = mid-1;//Õâ¸ö-1ºÍÏÂÃæµÄ+1ÊÇ×îÉ§µÄ。
             }else{
                 first = mid+1;
             }
